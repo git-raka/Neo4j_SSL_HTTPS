@@ -32,12 +32,19 @@ dbms.ssl.policy.https.client_auth=NONE
 
 # **Create directory in <NEO4J HOME>**
 neo4j@raka:~$ mkdir certificates
+ 
 neo4j@raka:~$ mkdir certificates/https
+ 
 neo4j@raka:~$ mkdir certificates/https/trusted
+ 
 neo4j@raka:~$ mkdir certificates/https/revoked
+ 
 neo4j@raka:~$ mkdir certificates/bolt
+ 
 neo4j@raka:~$ mkdir certificates/bolt/trusted
+ 
 neo4j@raka:~$ mkdir certificates/bolt/revoked
+ 
 
 ![image](https://user-images.githubusercontent.com/77326619/161441080-794893c4-828a-4696-beb0-62f909f6456e.png)
 
