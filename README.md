@@ -56,11 +56,16 @@ neo4j@raka:~$ openssl req -x509 -newkey rsa:2048 -keyout private.key -out public
  # *Copy a private key to directory certificates*
   
   
-neo4j@raka:~$ cp private.key certificates/bolt**
+neo4j@raka:~$ cp private.key certificates/bolt
+ 
 neo4j@raka:~$ cp public.crt certificates/bolt
+ 
 neo4j@raka:~$ cp private.key certificates/https
+ 
 neo4j@raka:~$ cp public.crt certificates/https
+ 
 neo4j@raka:~$ service neo4j restart 
+ 
 ![image](https://user-images.githubusercontent.com/77326619/161441226-91f19b13-85dd-4088-881e-410e83658958.png)
 
 # **to login into cypher use command**
