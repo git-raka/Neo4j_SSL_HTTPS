@@ -37,6 +37,7 @@ dbms.ssl.policy.https.client_auth=NONE
 ![image](https://user-images.githubusercontent.com/77326619/161441040-7813c003-a778-44ab-b30d-5aded40330e3.png)
 
 ## Create directory in <NEO4J HOME>
+```
 mkdir certificates
 mkdir certificates/https
 mkdir certificates/https/trusted
@@ -44,7 +45,7 @@ mkdir certificates/https/revoked
 mkdir certificates/bolt
 mkdir certificates/bolt/trusted
 certificates/bolt/revoked
- 
+```
 ![image](https://user-images.githubusercontent.com/77326619/161441080-794893c4-828a-4696-beb0-62f909f6456e.png)
 
 ## Create new key
