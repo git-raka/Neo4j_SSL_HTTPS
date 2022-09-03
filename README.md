@@ -36,7 +36,7 @@ dbms.ssl.policy.https.client_auth=NONE
 
 ![image](https://user-images.githubusercontent.com/77326619/161441040-7813c003-a778-44ab-b30d-5aded40330e3.png)
 
-## Create directory in (<NEO4J HOME>)
+## Create directory in NEO4J_HOME
 ```
 mkdir certificates
 mkdir certificates/https
