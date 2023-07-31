@@ -6,7 +6,7 @@ Edit neo4j.conf
 ```
 ## Enable Bolt connector over TLS
 dbms.connector.bolt.enabled=true
-dbms.connector.bolt.tls_level=REQUIRED
+dbms.connector.bolt.tls_level=OPTIONAL
 
 #Disable HTTP Connector. There can be zero or one HTTP connectors.**
 dbms.connector.http.enabled=false
@@ -25,10 +25,10 @@ dbms.ssl.policy.bolt.client_auth=NONE
 
 ## Https SSL configuration
 dbms.ssl.policy.https.enabled=true
+dbms.ssl.policy.https.client_auth=NONE
 dbms.ssl.policy.https.base_directory=certificates/https
 dbms.ssl.policy.https.private_key=private.key
 dbms.ssl.policy.https.public_certificate=public.crt
-dbms.ssl.policy.https.client_auth=NONE
 ```
 
 ## set your ip
@@ -44,7 +44,7 @@ mkdir certificates/https/trusted
 mkdir certificates/https/revoked
 mkdir certificates/bolt
 mkdir certificates/bolt/trusted
-certificates/bolt/revoked
+mkdir certificates/bolt/revoked
 ```
 ![image](https://user-images.githubusercontent.com/77326619/161441080-794893c4-828a-4696-beb0-62f909f6456e.png)
 
