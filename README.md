@@ -75,6 +75,6 @@ cypher-shell -a neo4j+ssc://0.0.0.0:7687
   
   
   
-## Open browser and open https://0.0.0.0:7687
+## Open browser and open https://your-ip:7687
   ![image](https://user-images.githubusercontent.com/77326619/161441330-e79818b6-e38b-4f96-9e99-297d177aebbe.png)
 
